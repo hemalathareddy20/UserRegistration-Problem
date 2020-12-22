@@ -8,10 +8,9 @@ namespace UserRegistration
         {
             Console.WriteLine("Welcome to User Registration program");
             Patterns PatternsMatch = new Patterns();
-            bool value = PatternsMatch.ValidateFirstName("Hema");
-            bool value1 = PatternsMatch.ValidateLastName("Latha");
-            Console.WriteLine(value);
-            Console.WriteLine(value1);
+            Console.WriteLine(PatternsMatch.ValidateFirstName("Hema"));
+            Console.WriteLine(PatternsMatch.ValidateLastName("Latha"));
+            Console.WriteLine(PatternsMatch.ValidateEmailId("abc.xyz@gmail.co.in"));
         }
     }
 }
