@@ -11,6 +11,7 @@ namespace UserRegistration
             Console.WriteLine(PatternsMatch.ValidateFirstName("Hema"));
             Console.WriteLine(PatternsMatch.ValidateLastName("Latha"));
             Console.WriteLine(PatternsMatch.ValidateEmailId("abc.xyz@gmail.co.in"));
+            Console.WriteLine(PatternsMatch.ValidateMobileNumber("91 9123456789"));
         }
     }
 }
