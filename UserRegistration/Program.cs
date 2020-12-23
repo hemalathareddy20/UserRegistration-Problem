@@ -12,7 +12,7 @@ namespace UserRegistration
             Console.WriteLine(PatternsMatch.ValidateLastName("Latha"));
             Console.WriteLine(PatternsMatch.ValidateEmailId("abc.xyz@gmail.co.in"));
             Console.WriteLine(PatternsMatch.ValidateMobileNumber("91 9123456789"));
-            Console.WriteLine(PatternsMatch.ValidatePassword("12345678"));
+            Console.WriteLine(PatternsMatch.ValidatePassword("hemaLatha"));
         }
     }
 }
